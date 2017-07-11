@@ -1,0 +1,29 @@
+{
+  "name": "10072017_test_node_melnik",
+  "version": "1.0.0",
+  "description": "test task forSannacode",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galynag/10072017_test_node_melnik.git"
+  },
+  "author": "galina gavrina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galynag/10072017_test_node_melnik/issues"
+  },
+  "homepage": "https://github.com/galynag/10072017_test_node_melnik#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "connect-mongodb": "^1.1.5",
+    "express": "^4.15.3",
+    "mongodb": "^2.2.30",
+    "serve-favicon": "^2.4.3"
+  }
+}
